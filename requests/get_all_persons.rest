@@ -1,0 +1,17 @@
+GET http://localhost:3001/info
+
+###
+GET http://localhost:3001/api/persons
+
+###
+DELETE http://localhost:3001/api/persons/1
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "felixli",
+    "number": "39-6423122"
+}
+
